@@ -1,0 +1,17 @@
+{
+    "name": "al6ert/bcnmm-activecampaign",
+    "description": "Use the Active Campaign Features Api in an easy way.",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+	"minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "composer/installers": "~1.0",
+    	"activecampaign/api-php": "^2.0.3"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
